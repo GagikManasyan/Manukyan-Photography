@@ -8,7 +8,6 @@
 }
 .gallery-img {
   position: relative;
-  min-height: 40rem;
   min-width: 15rem;
   padding: 40px;
 }
