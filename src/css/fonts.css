@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Gabarito";
+  src: url("/fonts/Gabarito-VariableFont_wght.ttf") format("woff2"),
+    url("/fonts/Gabarito-VariableFont_wght.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Freehand";
+  src: url("/fonts/Freehand.ttf") format("woff2"),
+    url("/fonts/Freehand.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

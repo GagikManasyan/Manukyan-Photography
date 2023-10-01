@@ -1,0 +1,12 @@
+#home {
+  background: #eaeaea;
+}
+#home h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 80px;
+  text-transform: capitalize;
+  font-family: "Freehand";
+}
