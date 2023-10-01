@@ -25,11 +25,17 @@
   #home h1 {
     font-size: 55px;
   }
+  #gallery {
+    display: unset;
+  }
   #gallery h2 {
     padding: 20px;
   }
   .gallery-img {
     min-width: 10rem;
+  }
+  #gallery .carousel {
+    width: 100%;
   }
   .gallery-wrapper {
     padding: 15px;
@@ -39,12 +45,12 @@
   }
   .slide-info {
     margin-bottom: 35px;
-    width: 100%;
+    width: 75%;
   }
   .slideshow {
     background-position: center;
     min-width: 100%;
-    min-height: 30vh;
+    min-height: 50vh;
   }
 }
 @media screen and (max-width: 580px) {
@@ -55,7 +61,7 @@
     font-size: 30px;
   }
   #gallery p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 465px) {
