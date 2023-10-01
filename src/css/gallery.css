@@ -21,6 +21,7 @@
 }
 .slideshow {
   min-width: 30vw;
+  min-height: 70vh;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
