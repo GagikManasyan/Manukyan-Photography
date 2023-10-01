@@ -2,6 +2,8 @@ import React from "react";
 import Portraits from "./portraits";
 import Weddings from "./weddings";
 import Jewelry from "./jewelry";
+import Pregnancy from "./pregnancy";
+import Commercials from "./commercials";
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "./css/gallery.css";
@@ -25,6 +27,8 @@ const Gallery = () => {
           <Portraits />
           <Weddings />
           <Jewelry />
+          <Pregnancy />
+          <Commercials />
         </motion.div>
       </motion.div>
     </div>

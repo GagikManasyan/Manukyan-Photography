@@ -41,6 +41,14 @@ const gallery = {
       "/images/gallery/weddings/wd10.jpg",
     ],
   },
+  pregnancy: {
+    images: [
+      "/images/gallery/pregnancy/pg1.jpg",
+      "/images/gallery/pregnancy/pg2.jpg",
+      "/images/gallery/pregnancy/pg3.jpg",
+      "/images/gallery/pregnancy/pg4.jpg",
+    ],
+  },
   jewelry: {
     images: [
       "/images/gallery/jewelry/jw1.jpg",
@@ -50,7 +58,18 @@ const gallery = {
     ],
   },
   commercials: {
-    images: [],
+    images: [
+      "/images/gallery/commercials/comm1.jpg",
+      "/images/gallery/commercials/comm2.jpg",
+      "/images/gallery/commercials/comm3.jpg",
+      "/images/gallery/commercials/comm4.jpg",
+      "/images/gallery/commercials/comm5.jpg",
+      "/images/gallery/commercials/comm6.jpg",
+      "/images/gallery/commercials/comm7.jpg",
+      "/images/gallery/commercials/comm8.jpg",
+      "/images/gallery/commercials/comm9.jpg",
+      "/images/gallery/commercials/comm10.jpg",
+    ],
   },
 };
 export default gallery;
