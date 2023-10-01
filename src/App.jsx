@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header.jsx";
 import Home from "./home.jsx";
+import Gallery from "./gallery.jsx";
 import "./css/App.css";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <Header />
       <Home />
+      <Gallery />
     </>
   );
 };

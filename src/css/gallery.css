@@ -1,0 +1,50 @@
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#gallery .carousel {
+  width: 65vw;
+}
+#gallery h2 {
+  padding: 50px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 50px;
+}
+.gallery-wrapper {
+  position: relative;
+  min-width: 60rem;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.slideshow {
+  width: 40vw;
+  height: 85vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-info {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Freehand";
+  text-transform: capitalize;
+}
+.slide-info h3 {
+  padding-bottom: 10px;
+  font-size: 5rem;
+}
+.slide-info p {
+  font-family: "Gabarito";
+  font-size: 15px;
+  line-height: 2;
+  text-transform: none;
+}
+.slide-info p::first-letter {
+  margin-left: 15px;
+}

@@ -1,8 +1,8 @@
-#inner-carousel {
+.inner-carousel {
   display: flex;
   align-items: baseline;
 }
-#carousel {
+.carousel {
   cursor: grab;
   overflow: hidden;
 }
