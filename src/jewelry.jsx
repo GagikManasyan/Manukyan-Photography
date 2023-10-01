@@ -7,7 +7,7 @@ const Jewelry = () => {
     const preloadImages = () => {
       gallery.jewelry.images.forEach((image) => {
         const img = new Image();
-        img.src = `/images/venue/${image}`;
+        img.src = image;
       });
     };
     preloadImages();

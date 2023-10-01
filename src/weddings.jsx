@@ -7,7 +7,7 @@ const Weddings = () => {
     const preloadImages = () => {
       gallery.weddings.images.forEach((image) => {
         const img = new Image();
-        img.src = `/images/venue/${image}`;
+        img.src = image;
       });
     };
     preloadImages();

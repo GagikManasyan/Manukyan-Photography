@@ -8,7 +8,7 @@ const Portraits = () => {
     const preloadImages = () => {
       gallery.portraits.images.forEach((image) => {
         const img = new Image();
-        img.src = `/images/venue/${image}`;
+        img.src = image;
       });
     };
     preloadImages();
