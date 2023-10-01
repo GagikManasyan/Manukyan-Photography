@@ -32,7 +32,7 @@ const Header = () => {
               onClick={() => {
                 if (isMobile) {
                   window.open(
-                    "instagram://user?username=manoukyan_photography'"
+                    "instagram://user?username=manoukyan_photography"
                   );
                 } else {
                   window.open(
