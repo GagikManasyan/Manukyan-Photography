@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div id="home">
       <h1>
-        photography for caputuring <br /> special moments
+        photography for capturing <br /> special moments...
       </h1>
       <HomeGallery />
     </div>
