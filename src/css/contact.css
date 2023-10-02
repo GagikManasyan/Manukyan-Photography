@@ -1,0 +1,34 @@
+#contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55vh;
+  background: #eaeaea;
+}
+#contact img {
+  width: 25rem;
+}
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#contact ul li {
+  margin-bottom: 40px;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
+#contact a {
+  text-decoration: none;
+  margin-right: 40px;
+  padding: 10px;
+}
+#contact ul li:nth-child(1) a {
+  color: #024500;
+}
+#contact ul li:nth-child(2) a {
+  color: #ff00bc;
+}
+#contact ul li:nth-child(3) a {
+  color: #2821a5;
+}

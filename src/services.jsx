@@ -6,9 +6,11 @@ import Pregnancy from "./pregnancy";
 import Commercials from "./commercials";
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import "./css/gallery.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import "./css/services.css";
 
-const Gallery = () => {
+const Services = () => {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
@@ -17,7 +19,7 @@ const Gallery = () => {
   }, []);
   return (
     <div id="gallery">
-      <h2>Gallery</h2>
+      <h3>Services</h3>
       <motion.div ref={carousel} className="carousel">
         <motion.div
           drag="x"
@@ -30,9 +32,12 @@ const Gallery = () => {
           <Pregnancy />
           <Commercials />
         </motion.div>
+        <span className="hint">
+          Slide <FontAwesomeIcon icon={faArrowRight} />
+        </span>
       </motion.div>
     </div>
   );
 };
 
-export default Gallery;
+export default Services;

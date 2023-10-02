@@ -30,13 +30,14 @@ const Portraits = () => {
   return (
     <div className="gallery-wrapper">
       <div className="slide-info">
-        <h3>Portraits</h3>
+        <h4>Portraits</h4>
         <p>
-          Step into the captivating world of portrait photography, where the
-          essence of a person's soul is immortalized through the lens. In this
-          exquisite corner of our page, we invite you to explore the artistry,
-          creativity, and storytelling that lies at the heart of each carefully
-          crafted portrait.
+          My portrait photography service is all about capturing the unique
+          essence of you. Whether it's a headshot for your professional profile,
+          a personal photoshoot, or a family portrait, I specialize in creating
+          a single, timeless image that showcases your personality and style. My
+          keen eye for detail and ability to make you feel comfortable in front
+          of the camera ensure a stunning portrait that tells your story.
         </p>
       </div>
       <div className="slideshow" style={backgroundImageStyle}></div>

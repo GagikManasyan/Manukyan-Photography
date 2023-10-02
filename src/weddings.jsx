@@ -29,13 +29,14 @@ const Weddings = () => {
   return (
     <div className="gallery-wrapper">
       <div className="slide-info">
-        <h3>Weddings</h3>
+        <h4>Weddings</h4>
         <p>
-          Step into the captivating world of portrait photography, where the
-          essence of a person's soul is immortalized through the lens. In this
-          exquisite corner of our page, we invite you to explore the artistry,
-          creativity, and storytelling that lies at the heart of each carefully
-          crafted portrait.
+          Your wedding day is a once-in-a-lifetime event, and my wedding
+          photography service is dedicated to preserving the magic of that day.
+          I believe in capturing the beauty, emotion, and love that radiate from
+          you and your partner in a single, cherished photograph. My experience
+          in documenting every aspect of your wedding ensures that you have a
+          stunning image to relive the joy for generations to come.
         </p>
       </div>
       <div className="slideshow" style={backgroundImageStyle}></div>

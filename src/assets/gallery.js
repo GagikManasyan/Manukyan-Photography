@@ -13,6 +13,12 @@ const gallery = {
       "/images/gallery/home/image11.jpeg",
     ],
   },
+  about: {
+    images: [
+      "/images/gallery/about/abt1.jpg",
+      "/images/gallery/about/abt2.jpg",
+    ],
+  },
   portraits: {
     images: [
       "/images/gallery/portraits/pt1.jpg",

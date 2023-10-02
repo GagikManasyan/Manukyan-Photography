@@ -29,13 +29,15 @@ const Jewelry = () => {
   return (
     <div className="gallery-wrapper">
       <div className="slide-info">
-        <h3>Jewelry</h3>
+        <h4>Jewelry</h4>
         <p>
-          Step into the captivating world of portrait photography, where the
-          essence of a person's soul is immortalized through the lens. In this
-          exquisite corner of our page, we invite you to explore the artistry,
-          creativity, and storytelling that lies at the heart of each carefully
-          crafted portrait.
+          My jewelry photography service is designed to make a single precious
+          gem or accessory shine in the spotlight. I understand the importance
+          of high-quality visuals in the jewelry industry and excel in
+          highlighting the intricate details, brilliant colors, and unique
+          designs of your piece. Whether you're a jewelry designer, retailer, or
+          collector, my photography will enhance the allure of your single
+          creation.
         </p>
       </div>
       <div className="slideshow" style={backgroundImageStyle}></div>

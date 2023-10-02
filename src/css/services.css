@@ -4,9 +4,10 @@
   align-items: center;
 }
 #gallery .carousel {
+  position: relative;
   width: 65vw;
 }
-#gallery h2 {
+#gallery h3 {
   padding: 50px;
   text-align: center;
   font-family: "Montserrat";
@@ -35,7 +36,7 @@
   font-family: "Freehand";
   text-transform: capitalize;
 }
-.slide-info h3 {
+.slide-info h4 {
   margin-bottom: 25px;
   font-family: "Freehand";
   font-size: 5vw;
@@ -48,4 +49,12 @@
 }
 .slide-info p::first-letter {
   margin-left: 15px;
+}
+.hint {
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: #3e3e3e;
 }

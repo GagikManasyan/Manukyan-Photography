@@ -29,13 +29,15 @@ const Pregnancy = () => {
   return (
     <div className="gallery-wrapper">
       <div className="slide-info">
-        <h3>Pregnancy</h3>
+        <h4>Pregnancy</h4>
         <p>
-          Step into the captivating world of portrait photography, where the
-          essence of a person's soul is immortalized through the lens. In this
-          exquisite corner of our page, we invite you to explore the artistry,
-          creativity, and storytelling that lies at the heart of each carefully
-          crafted portrait.
+          Pregnancy is a beautiful and transformative journey, and my maternity
+          or pregnant photoshoot service is dedicated to capturing the radiance
+          and joy of this precious time in a single, cherished photograph. I
+          create heartfelt and artistic images that celebrate the miracle of
+          life and the anticipation of your growing family. My expertise in
+          making expectant mothers feel comfortable and confident results in an
+          elegant and memorable maternity photo that you'll cherish forever.
         </p>
       </div>
       <div className="slideshow" style={backgroundImageStyle}></div>

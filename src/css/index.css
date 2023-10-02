@@ -1,9 +1,29 @@
+#page-nav {
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#page-nav li button {
+  font-size: 30px;
+  background: none;
+  border: none;
+}
+#page-nav li {
+  margin-bottom: 30px;
+}
+#page-nav svg {
+  color: #eb00ff;
+  transition: transform 0.3s ease;
+}
+#page-nav svg:hover {
+  transform: rotate(180deg);
+}
+
 @media screen and (min-width: 1660px) {
   #logo img {
     width: 20rem;
-  }
-  #page-nav a {
-    font-size: 2rem;
   }
   #socials a {
     font-size: 3rem;
@@ -18,18 +38,18 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 920px) {
-  #page-nav {
-    display: none;
-  }
+@media screen and (max-width: 940px) {
   #home h1 {
     font-size: 55px;
   }
+  #about-text h2 {
+    font-size: 35px;
+  }
+  #about-text p {
+    width: 25rem;
+  }
   #gallery {
     display: unset;
-  }
-  #gallery h2 {
-    padding: 20px;
   }
   .gallery-img {
     min-width: 10rem;
@@ -52,21 +72,68 @@
     min-width: 100%;
     min-height: 50vh;
   }
+  #contact img {
+    width: 15rem;
+  }
+  #contact ul li {
+    font-size: 20px;
+  }
+  #contact a {
+    margin-right: 15px;
+  }
+  #page-nav {
+    right: 25px;
+  }
+  #page-nav li button {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 580px) {
   #home h1 {
     font-size: 35px;
   }
-  #gallery h2 {
-    font-size: 30px;
+  #gallery h3 {
+    font-size: 35px;
   }
   #gallery p {
     font-size: 13px;
+  }
+  #about-text {
+    padding: 60px 20px;
+  }
+  #about-text h2 {
+    font-size: 30px;
+  }
+  #about-text p {
+    width: 20rem;
+    font-size: 13px;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #contact ul li {
+    font-size: 15px;
+  }
+  #page-nav li button {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 465px) {
   .gallery-img {
     padding: 20px;
     min-width: 8rem;
+  }
+  #about-text h2 {
+    font-size: 20px;
+  }
+  #about-text p {
+    width: 100%;
+    font-size: 10px;
+  }
+  #contact img {
+    width: 9rem;
   }
 }

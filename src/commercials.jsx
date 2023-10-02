@@ -29,13 +29,15 @@ const Commercials = () => {
   return (
     <div className="gallery-wrapper">
       <div className="slide-info">
-        <h3>Commercials</h3>
+        <h4>Commercials</h4>
         <p>
-          Step into the captivating world of portrait photography, where the
-          essence of a person's soul is immortalized through the lens. In this
-          exquisite corner of our page, we invite you to explore the artistry,
-          creativity, and storytelling that lies at the heart of each carefully
-          crafted portrait.
+          Elevate your brand's image with my commercial photography services. I
+          collaborate closely with businesses, helping them communicate their
+          products, services, and values through captivating visuals. My
+          expertise in creating eye-catching images for advertising campaigns,
+          product catalogs, and digital marketing ensures that you can convey
+          your brand's story and captivate your target audience with a single,
+          striking photograph.
         </p>
       </div>
       <div className="slideshow" style={backgroundImageStyle}></div>

@@ -1,17 +1,24 @@
 import React from "react";
-import "./css/header.css";
+import "./css/contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { isMobile } from "react-device-detect";
 
-const Header = () => {
+const Contact = () => {
   return (
-    <header id="page-header">
+    <div id="contact">
       <div id="logo">
         <img src="/images/manukyan-logo.png" alt="logo" />
       </div>
-      <nav>
-        <ul id="socials">
+      <div id="contact-info">
+        <ul>
+          <li>
+            <a href="tel:096400186">
+              <FontAwesomeIcon icon={faPhone} />
+            </a>
+            <span>096-400-186</span>
+          </li>
           <li>
             <a
               href="#"
@@ -32,16 +39,18 @@ const Header = () => {
             >
               <FontAwesomeIcon icon={faInstagram} id="inst-icon" />
             </a>
+            <span>@manoukyan_photography</span>
           </li>
           <li>
             <a href="https://www.facebook.com/VardtineManukyan">
               <FontAwesomeIcon icon={faFacebook} id="fb-icon" />
             </a>
+            <span>@VardineM</span>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </div>
   );
 };
 
-export default Header;
+export default Contact;
