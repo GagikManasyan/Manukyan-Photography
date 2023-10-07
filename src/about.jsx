@@ -5,7 +5,6 @@ const About = () => {
   const backgroundImageStyle = {
     backgroundImage: `url(${gallery.about.images[1]})`,
     transition: "background-image 1s ease-in-out",
-    loading: "lazy",
   };
   return (
     <div id="about">
